@@ -93,9 +93,17 @@ body {
 
 /* Top form images section */
 
+#logo-and-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #intuit-logo {
     width: 118px;
     height: 35px;
+    margin: 20px 0;
 }
 
 .intuit-icon {
@@ -107,6 +115,15 @@ body {
 .intuit-text-image {
     height: 22;
     width: auto;
+}
+
+.icon-margin {
+    margin-right: 10px;
+}
+
+#intiut-icon-section {
+    display: flex;
+    flex: row wrap;
 }
 
 /* END --- Top form images section */
