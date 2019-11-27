@@ -109,3 +109,175 @@ h3 {
     line-height: 0;    
     font-weight: 400;
 }
+/* Import fonts */
+
+@font-face {
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Kameron'), url(https://fonts.gstatic.com/s/kameron/v10/vm82dR7vXErQxuzngLk6Lg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Lato', sans-serif;
+}
+/* END --- Global reset */
+
+
+body {
+    background-color: #ECEEF1;
+}
+
+/* Sign In */
+
+#sign-in-check {
+    display: flex;
+    flex: row wrap;
+    height: 60px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+#sign-in-text p, #sign-in-text a  {
+    font-size: small;
+    margin-right: 10px;
+    text-align: justify;
+    text-decoration: none;
+    color: #525252;
+}
+
+#sign-in-text a {
+    color: #087BC6;
+}
+
+#sign-in-button {
+    height: 32px;
+    width: 100px;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    color: white;
+    background-color: #0077C5;
+    letter-spacing: 1px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#sign-in-button i {
+    margin-right: 4px;
+}
+
+/* END --- Sign In */
+
+/* Top form images section */
+
+#logo-and-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intuit-logo {
+    width: 118px;
+    height: 35px;
+    margin: 20px 0;
+}
+
+.intuit-icon {
+    height: 23px;
+    width: 23;
+    margin-right: 4px;
+}
+
+.intuit-text-image {
+    height: 22;
+    width: auto;
+}
+
+.icon-margin {
+    margin-right: 10px;
+}
+
+#intiut-icon-section {
+    display: flex;
+    flex: row wrap;
+}
+
+/* END --- Top form images section */
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    color: #838485;
+    margin: 40px 0 30px 0;
+}
+
+footer p {
+    font-family: 'Kameron';
+}
+
+.footer-link {
+    margin-right: 4px;
+    color: #838485;
+    text-decoration: none;
+    font-family: 'Kameron';
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* END --- Footer */
