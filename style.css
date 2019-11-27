@@ -2,8 +2,36 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
+/* END --- Global reset */
+
+
+body {
+    background-color: #ECEEF1;
+}
+
+/* Sign In */
+
+#sign-in {
+    display: flex;
+    flex: row wrap;
+    height: 60px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+#sign-in-button {
+    height: 34px;
+    width: 104.8px;
+    border: 1px solid #525252;
+    border-radius: 3px;
+    color: white;
+    background-color: #0077C5;
+}
+
+/* END --- Sign In */
 
 /* Top form images section */
 
@@ -22,3 +50,5 @@
     height: 22;
     width: auto;
 }
+
+/* END --- Top form images section */
