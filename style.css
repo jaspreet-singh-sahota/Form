@@ -11,3 +11,14 @@
     width: 118px;
     height: 35px;
 }
+
+.intuit-icon {
+    height: 23px;
+    width: 23;
+    margin-right: 4px;
+}
+
+.intuit-text-image {
+    height: 22;
+    width: auto;
+}
