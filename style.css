@@ -259,10 +259,10 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
-    color: #838485;
-    margin: 40px 0 30px 0;
+    color: #525252;
+    margin: 40px 0 10px 0;
 }
 
 footer p {
@@ -271,7 +271,7 @@ footer p {
 
 .footer-link {
     margin-right: 4px;
-    color: #838485;
+    color: #525252;
     text-decoration: none;
     font-family: 'Kameron';
 }
