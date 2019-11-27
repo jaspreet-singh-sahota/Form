@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>YouTube</title>
+        <title>Form</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
+        <script src="https://use.fontawesome.com/0661cf99c7.js"></script>
+        <div  class="container"  >
+            <form id="form">
+                <fieldset class="account-info">
+                    <h2 id="sign-in">Sign In</h2><br>
+                    <h2 class="learn-more" >One account for everything Intuit, including Mint.</h3><br>
+                    <h3 ><a href="#">Learn more</a></h3>
+                    <div class="information">
+                        <div>
+                            <label for="email">Email or user ID</label><br>
+                            <input class="label" type="email" id="email" required="">
+                        </div>
+                        <div >
+                            <label for="password" class="password-label">Password</label><br>
+                            <input class="label" type="password" id="password" required="">
+                        </div>
+                        <div id="checkboxes">
+                            <div class="checkbox">
+                                <input type="checkbox" id="checkbox-1" name="example" checked />
+                                <label for="checkbox-1"></label>
+                                <span>Remember me</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="create-account-button"><i class="fa fa-lock" aria-hidden="true"></i>  Create Account</button>
+                </fieldset>
+            </form>
+            <div class="grey">
+                <p class="form-text-bottom">By clicking Sign In, you agree to our<br>
+                <a href="#">Terms</a> and have read and acknowledge our 
+                <a href="#">Privacy<br>Statement.</a>
+                </p>
+            </div>
+            <div class="forgot-passward" >
+                <a href="#">I forgot my user ID or password</a>
+                <p>New to Intuit?<a href="#">Create an account</a>.</p>
+            </div>
+            <div class="form-footer">
+                <span class="footer-captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a>
+                    and <a href="#">Terms of Use</a>.
+                </span>
+            </div>
+        </div>
     </body>
 </html>
