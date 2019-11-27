@@ -5,5 +5,9 @@
     box-sizing: border-box;
 }
 
-/* Logos section */
+/* Top form images section */
 
+#intuit-logo {
+    width: 118px;
+    height: 35px;
+}
