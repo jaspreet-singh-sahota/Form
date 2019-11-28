@@ -174,7 +174,7 @@ body {
 
 #sign-in-check {
     display: flex;
-    flex: row wrap;
+    flex-wrap: wrap;
     height: 60px;
     width: 100%;
     justify-content: right;
@@ -228,12 +228,12 @@ body {
 
 .intuit-icon {
     height: 23px;
-    width: 23;
+    width: 23px;
     margin-right: 4px;
 }
 
 .intuit-text-image {
-    height: 22;
+    height: 22px;
     width: auto;
 }
 
@@ -243,7 +243,7 @@ body {
 
 #intiut-icon-section {
     display: flex;
-    flex: row wrap;
+    flex-wrap: wrap;
 }
 
 /* END --- Top form images section */
