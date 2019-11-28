@@ -76,16 +76,20 @@ fieldset {
 }
 
 #sign-in {
-    padding-top: 69px;
+    padding-top: 30px;
     color: #4C4C4C;
     line-height: 1.1;
     font-size: 24px; 
     font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif; 
 }
 
+.form-text-bottom {
+    margin: 25px 0;
+}
+
 .form-footer {
     background-color: #ECEEF1;
-    margin: 50px 0px 0px;
+    margin: 29px 0 0 0;
     padding: 16px;
     font-size: 10px;
     border-top: 1px solid #ECEEF1;
@@ -279,3 +283,10 @@ footer p {
 }
 
 /* END --- Footer */
+
+
+#small-text {
+    position: relative;
+    top: -20px;
+    font-size: smaller;
+}
