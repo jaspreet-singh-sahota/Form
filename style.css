@@ -157,9 +157,6 @@ h3 {
     font-weight: 400;
 }
 
-
-
-
 /* Global reset */
 * {
     margin: 0;
@@ -168,7 +165,6 @@ h3 {
     font-family: 'Lato', sans-serif;
 }
 /* END --- Global reset */
-
 
 body {
     background-color: #ECEEF1;
@@ -252,7 +248,6 @@ body {
 
 /* END --- Top form images section */
 
-
 /* Footer */
 
 footer {
@@ -283,7 +278,6 @@ footer p {
 }
 
 /* END --- Footer */
-
 
 #small-text {
     position: relative;
