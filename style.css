@@ -1,0 +1,286 @@
+/* Import fonts */
+
+@font-face {
+    font-family: 'Kameron';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Kameron'), url(https://fonts.gstatic.com/s/kameron/v10/vm82dR7vXErQxuzngLk6Lg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v16/S6u8w4BMUTPHjxsAXC-q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 380px;
+    height: 608px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    list-style: none;
+    line-height: 1.5;
+}
+
+#form {
+  overflow: hidden;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+#sign-in {
+    padding-top: 30px;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px; 
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif; 
+}
+
+.form-text-bottom {
+    margin: 25px 0;
+}
+
+.form-footer {
+    background-color: #ECEEF1;
+    margin: 29px 0 0 0;
+    padding: 16px;
+    font-size: 10px;
+    border-top: 1px solid #ECEEF1;
+}
+
+.forgot-passward {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.grey {
+    font-style: italic;
+    color: #757575;
+    font-size: 12px;
+}
+
+.create-account-button {
+    background: #0077C5;
+    border: #0077C5;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    color: #FFF;
+    width: 80%;
+    height: 44px;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1.125em;
+    font-family: inherit;
+}
+
+.information {
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 100%;
+    padding-left: 10px;
+    width: 80%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid #C1C5C8;
+    margin-bottom: 20px;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    line-height: 0;
+    padding-bottom: 25px;
+}
+
+.learn-more {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: #777;
+    line-height: 0;    
+    font-weight: 400;
+}
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Lato', sans-serif;
+}
+/* END --- Global reset */
+
+body {
+    background-color: #ECEEF1;
+}
+
+/* Sign In */
+
+#sign-in-check {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+}
+
+#sign-in-text p, #sign-in-text a  {
+    font-size: small;
+    margin-right: 10px;
+    text-align: justify;
+    text-decoration: none;
+    color: #525252;
+}
+
+#sign-in-text a {
+    color: #087BC6;
+}
+
+#sign-in-button {
+    height: 32px;
+    width: 100px;
+    border: 1px solid #525252;
+    border-radius: 4px;
+    color: white;
+    background-color: #0077C5;
+    letter-spacing: 1px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#sign-in-button i {
+    margin-right: 4px;
+}
+
+/* END --- Sign In */
+
+/* Top form images section */
+
+#logo-and-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#intuit-logo {
+    width: 118px;
+    height: 35px;
+    margin: 20px 0;
+}
+
+.intuit-icon {
+    height: 23px;
+    width: 23px;
+    margin-right: 4px;
+}
+
+.intuit-text-image {
+    height: 22px;
+    width: auto;
+}
+
+.icon-margin {
+    margin-right: 10px;
+}
+
+#intiut-icon-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* END --- Top form images section */
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #525252;
+    margin: 40px 0 10px 0;
+}
+
+footer p {
+    font-family: 'Kameron';
+}
+
+.footer-link {
+    margin-right: 4px;
+    color: #525252;
+    text-decoration: none;
+    font-family: 'Kameron';
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* END --- Footer */
+
+#small-text {
+    position: relative;
+    top: -20px;
+    font-size: smaller;
+}
